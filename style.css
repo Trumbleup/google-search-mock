@@ -283,3 +283,29 @@ nav {        /* Navbar*/
 .youtube-tag {
 	color: #3c4043;
 }
+
+.questions {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 21px;
+}
+
+.question-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 620px;
+	height: 26px;
+	padding: 9px 16px;
+	border: 1px solid #e5e5e5;
+}
+
+.question-row h1 {
+	margin: 0;
+	font: 16px Roboto, arial, sans-serif;
+}
+
+.question-header h1 {
+	font-size: 20px;
+}
